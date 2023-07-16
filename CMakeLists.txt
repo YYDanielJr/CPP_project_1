@@ -1,4 +1,6 @@
-cmake_minimum_required(VERSION 3.10)
-project(CPP_project_1)
-include_directories(include)
-add_executable(Main src/main.cpp)
+cmake_minimum_required(VERSION 3.20)
+project(Main)
+
+set(CMAKE_CXX_STANDARD 17)
+
+add_executable(Main src/InfoManager.cpp src/main.cpp)
